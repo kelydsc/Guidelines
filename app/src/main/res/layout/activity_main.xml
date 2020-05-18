@@ -50,8 +50,7 @@
             app:layout_constraintHorizontal_bias="0.461"
             app:layout_constraintStart_toStartOf="@+id/guideline4"
             app:layout_constraintTop_toTopOf="@+id/guideline2"
-            app:srcCompat="@drawable/ic_expand_more_white_24dp"
-            tools:ignore="VectorDrawableCompat" />
+            app:srcCompat="@drawable/ic_expand_more_white_24dp"/>
 
     <TextView
         android:id="@+id/textViewTituloSerie"
@@ -90,8 +89,7 @@
         android:gravity="center_horizontal"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toBottomOf="@+id/textViewEpisodioSerie"
-        tools:ignore="VectorDrawableCompat">
+        app:layout_constraintTop_toBottomOf="@+id/textViewEpisodioSerie">
 
         <ImageView
             android:id="@+id/imageView"
@@ -177,7 +175,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:gravity="center_horizontal"
-        tools:ignore="VectorDrawableCompat"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toBottomOf="@+id/linearLayoutTempoSerie">
